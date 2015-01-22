@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example Time!</title>
+    <link href="static/css/jquery.validity.css" rel="stylesheet">
+<script src="static/js/jquery.validity.js"></script>
+<script src="static/js/jquery.validity.lang.es.js"></script>
+    <script>
+        $(function() {
+            $("form").validity(function() {
+                $("#quantity")
+                    .require()
+                    .match("number");
+            });    
+        });    
+    </script>
+</head>
+<body>
+    <form method="get" action="">
+        <input type="text" id="quantity" />
+        <br />
+        <input type="submit" />
+    </form>
+</body>
+</html>
