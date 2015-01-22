@@ -4,6 +4,10 @@
 Created on 18/1/2015
 
 @author: Usuario
+
+Luis M. Viteri Z.
+
+primer proyecto de Python con Github
 '''
 from app import app
 
